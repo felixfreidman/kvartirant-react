@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../../Images/Logo.svg"
+import logo from "../../../../Images/Logo.svg"
 import classes from './Logo.module.scss'
 
 const Logo = (props) => {

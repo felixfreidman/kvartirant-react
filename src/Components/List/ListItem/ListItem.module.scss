@@ -1,0 +1,21 @@
+.ListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.ListItem__content {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.ListItem__bullet {
+  border-radius: 120px;
+  background: #fff;
+  margin-right: 4px;
+  width: 6px;
+  height: 6px;
+}

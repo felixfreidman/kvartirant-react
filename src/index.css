@@ -17,3 +17,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background: url(./Images/backgroundImg.png) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(51, 63, 72, 0.6);
+}

@@ -7,7 +7,7 @@ import { FormButtonSmall } from '../../../FormHandlers/FormButtonSmall/FormButto
 export const LittleForm = (props) => {
     return (
         <div className={classes.LittleForm}>
-            <div className="formHeader">{props.formHeader}</div>
+            <div className={classes.FormHeader}>{props.formHeader}</div>
             <FormInput InputType="text" InputName="userName" InputPlaceholder="Ваше Имя" />
             <FormInput InputType="text" InputName="userPhone" InputPlaceholder="Телефон" />
             <FormButtonSmall ButtonType="submit" ButtonText="Отправить" />
